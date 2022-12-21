@@ -7,10 +7,14 @@
         {
             Console.WriteLine("Inherit Class");
         }
-        public InheritClass(int n,string ss) : base( n)
+        public InheritClass(int n, string ss) : base(n)
         {
 
             InheritMethod(ss);
+        }
+        public InheritClass()
+        {
+
         }
 
     }

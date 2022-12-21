@@ -8,13 +8,17 @@ namespace Inheritance
 {
     internal class BaseClass
     {
-        void  BaseMethod(int t)
+        void  BaseMethod(int t )
         {
-            Console.WriteLine("BaseMethod   {0}",t);
+            Console.WriteLine("BaseMethod   {0}",t );
         }
-        public BaseClass(int y)
+        public BaseClass(int y )
         {
             BaseMethod(y);
+        }
+        public BaseClass()
+        {
+
         }
     }
 }
