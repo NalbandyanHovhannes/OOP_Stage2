@@ -4,9 +4,19 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            InheritClass inherit = new InheritClass(8,"hhhhh");
-            
+            InheritClass inherit = new InheritClass();
+            int t = 9;
+            //Console.WriteLine("Hello, World!");
         }
+
     }
 }
+
+
+
+
+
+
+
+
+
