@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Polymorphism
 {
-    public virtual class VirtualClasses
+    public  class VirtualClasses
     {
         public  virtual void AnimalVoice(int t)
         {
