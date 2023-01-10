@@ -20,7 +20,6 @@
             // display 5
             Console.WriteLine(version.value);
 
-
             TestGenClass<int> testGenClass2 = new TestGenClass<int>();
 
             // calling Generics method
