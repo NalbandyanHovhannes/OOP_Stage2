@@ -8,6 +8,7 @@ namespace Generics
 {
     internal class TestGenClass<T>
     {
+
         // private data members
         private T data;
 
