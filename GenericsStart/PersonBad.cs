@@ -15,7 +15,7 @@ namespace GenericsStart
             Id = id;
             Name = name;
         }
-        //With 2 parameters when id can be string and int
+       // With 2 parameters when id can be string and int
         //public object Id { get; }
         //public string Name { get; }
         //public Person(object id, string name)

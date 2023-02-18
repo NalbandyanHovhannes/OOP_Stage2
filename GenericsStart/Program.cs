@@ -4,10 +4,10 @@
     {
         static void Main(string[] args)
         {
-            PersonBad Ken = new PersonBad(666, "Ken");
+            PersonBad obj1 = new PersonBad(666, "Ken");
             // PersonBad Blok = new PersonBad("Ken", "Blok");
 
-            int tomId = (int)Ken.Id;
+            int tomId = obj1.Id;
            // string bobId = (string)bob.Id;
 
             Console.WriteLine(tomId);   // 546
@@ -17,15 +17,16 @@
             PersonBad tom = new PersonBad(666, "Ken");//public object Id { get; }
 
             //Unboxing tomid
-            tomId = (int)Ken.Id;
+            tomId = (int)obj1.Id;
 
 
             #region
             //-------------------------------
-            PersonGoodPractice<int> obj1 = new PersonGoodPractice<int>(666, "Tommy");  // not boxing
+            PersonGoodPractice<int> obj11= new PersonGoodPractice<int>(666, "Tommy");  // not boxing
             PersonGoodPractice<string> obj2 = new PersonGoodPractice<string>("99999", "Gags");
+            //PersonGoodPractice obj3 = new PersonGoodPractice();
 
-            int obj1Id = tom.Id;      // not unboxing
+            int obj1Id = obj11.Id;      // not unboxing
             string obj2bobId = obj2.Id;  // not boxing
 
             Console.WriteLine(tomId);   // 666

@@ -6,14 +6,19 @@ using System.Threading.Tasks;
 
 namespace GenericsStart
 {
-    internal class PersonGoodPractice<T>
+    public class PersonGoodPractice<T>
     {
-        public T Id { get; set; }
+        public T Id { get; set; } //public int Id { get; set; }
+        //public string Id { get; set; } //public int Id { get; set; }
         public string Name { get; set; }
         public PersonGoodPractice(T id, string name)
         {
             Id = id;
             Name = name;
+        }
+        public PersonGoodPractice()
+        {
+
         }
     }
 }
